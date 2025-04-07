@@ -5,9 +5,10 @@
 
 .box {
    display: flex;
+   flex-direction: column;
    background-color: #9fcdcd;
-   height: 450px;
-   width: 35%;
+   height: 500px;
+   width: 40%;
    margin: auto;
    border-radius: 15px;
 }
@@ -15,10 +16,67 @@
 .title {
    display: flex;
    align-items: center;
-   height: 50px;
-   width: 50%;
+   height: 45px;
+   width: 70%;
    background-color: #db6423;
    color: white;
    font-weight: 700;
    letter-spacing: 2px;
+   margin-top: 40px;
+   
+}
+
+.title2 {
+   margin-bottom: 10px;
+   color: #7c877e;
+   font-size: 17px;
+   margin-top: 25px;
+}
+
+input {
+   background-color: #a9d2d2;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+.card-number {
+   width: 45%;
+   height: 45px;
+   font-size: 20px;
+}
+
+.title3 {
+   margin-bottom: 10px;
+   color: #7c877e;
+   font-size: 17px;
+   margin-top: 20px;
+}
+
+.card-name {
+   width: 45%;
+   height: 45px;
+   font-size: 20px;
+}
+
+.title4 {
+   margin-bottom: 10px;
+   color: #7c877e;
+   font-size: 17px;
+   margin-top: 20px;
+}
+
+.month {
+   width: 100px;
+   height: 45px;
+}
+
+.year {
+   width: 100px;
+   height: 45px;
+}
+
+.cvv-cvn {
+   width: 100px;
+   height: 45px;
 }
