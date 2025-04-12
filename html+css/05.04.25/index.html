@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style/style.css">
 <title>Forms</title>
 </head>
 <body>
@@ -13,10 +13,11 @@
       <span>CREDIT CARD DETAILS</span>
    </div>
    <div class="card-box">
+      <div class="card-box__number">
       <div class="card-title__number">Card Number</div>
       <input class="card-number" type="text" placeholder="1234 5678 9012 3456">
    </div>
-   <div class="card-box">
+   <div class="card-box__name">
       <div class="card-title__name">Name on Card</div>
       <input class="card-name" type="text" placeholder="Name Surname">
    </div>
@@ -25,11 +26,12 @@
          <div>Expiry Date</div>
          <div>CVV/CVN</div>
       </div>
-      <div>
-         <input type="text" placeholder="02">
-         <input type="text" placeholder="2017">
-         <input type="text" placeholder="***">
+      <div class="card-cvv-cvn">
+         <input class="card-cvv-cvn__elements" type="text" placeholder="02">
+         <input class="card-cvv-cvn__elements" type="text" placeholder="2017">
+         <input class="card-cvv-cvn__elements" type="text" placeholder="***">
       </div>
+   </div>
    </div>
    </div>
 </form>

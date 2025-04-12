@@ -1,0 +1,113 @@
+@font-face {
+   font-family: "NotoSens";
+   src: url("../fonts/NotoSans_ExtraCondensed-SemiBold.ttf") format("truetype");
+   font-style: normal;
+   font-weight: normal;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "NotoSens";
+}
+
+.box {
+   display: flex;
+   flex-direction: column;
+   background-color: #9fcdcd;
+   height: 500px;
+   width: 40%;
+   margin: auto;
+   border-radius: 15px;
+}
+
+.title {
+   display: flex;
+   align-items: center;
+   width: 80%;
+   height: 50px;
+   background-color: #db6423;
+   color: white;
+   font-size: 25px;
+   margin-top: 40px;
+   letter-spacing: 1px;
+}
+
+::placeholder {
+color: #8cbdc2;
+}
+
+span {
+   margin-left: 50px;
+}
+
+.card-box {
+   margin-left: 50px;
+   margin-top: 30px;
+}
+
+.card-box__number {
+   color: #61898b;
+}
+
+.card-title__number {
+   margin-bottom: 10px;
+}
+
+.card-number {
+   height: 50px;
+   width: 60%;
+   font-size: 20px;
+   background-color: #a9d2d2;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+.card-box__name {
+   color: #61898b;
+}
+
+.card-title__name {
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.card-name {
+   height: 50px;
+   width: 60%;
+   font-size: 20px;
+   background-color: #a9d2d2;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+.card-box__cvv-cvn {
+   color: #61898b;
+}
+
+.card-title__cvv-cvn {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 5px;
+   width: 60%;
+   margin-top: 20px;
+}
+
+.card-cvv-cvn {
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+}
+
+.card-cvv-cvn__elements {
+   width: 30%;
+   height: 50px;
+   font-size: 20px;
+   background-color: #a9d2d2;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+   
