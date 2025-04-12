@@ -1,4 +1,8 @@
-
+@font-face {
+   font-family: "NotoSens";
+   src: url("../05.04.25/fonts/NotoSans_ExtraCondensed-SemiBold.ttf") format("truetype");
+   font-weight: normal;
+}
 
 * {
    margin: 0;
