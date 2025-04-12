@@ -52,6 +52,7 @@ span {
 
 .card-title__number {
    margin-bottom: 10px;
+   font-size: 20px;
 }
 
 .card-number {
@@ -71,6 +72,7 @@ span {
 .card-title__name {
    margin-top: 20px;
    margin-bottom: 10px;
+   font-size: 20px;
 }
 
 .card-name {
@@ -90,9 +92,10 @@ span {
 .card-title__cvv-cvn {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 5px;
-   width: 60%;
+   font-size: 20px;
+   width: 50%;
    margin-top: 20px;
+   margin-bottom: 10px;
 }
 
 .card-cvv-cvn {
@@ -110,4 +113,3 @@ span {
    border-left: none;
    border-right: none;
 }
-   
