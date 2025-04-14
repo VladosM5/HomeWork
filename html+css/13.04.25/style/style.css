@@ -1,3 +1,10 @@
+@font-face {
+   font-family: 'OpenSans';
+   src: url(../fonts/OpenSans_Condensed-SemiBold.ttf) format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -20,6 +27,7 @@ body {
 }
 
 .title {
+   font-family: 'OpenSans';
    font-size: 23px;
    margin-bottom: 10px;
 }
@@ -75,3 +83,12 @@ input[type=text].invalid-text::placeholder {
    margin-top: 50px;
    margin-left: 30px;
 }
+
+.checkbox {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   font-family: 'OpenSans';
+   font-size: 20px;
+}
+
