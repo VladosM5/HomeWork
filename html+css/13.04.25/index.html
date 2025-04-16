@@ -10,23 +10,57 @@
    <form action="">
       <div class="box">
          <div class="inputs">
-            <div class="title"><b>Inputs</b></div>
+            <div class="title">Inputs</div>
             <input class="enter-text" type="text" placeholder="Enter some text">
             <input class="valid-text" type="text" placeholder="valid text">
             <input class="invalid-text" type="text" placeholder="invalid text">
          </div>
          <div class="check-boxes">
-            <div class="title"><b>Check boxes</b></div>
+            <div class="title">Check boxes</div>
             <div class="checkbox">
-               <div>
-                  <input type="checkbox" name="" id="checkbox-green">
-                  <label class="checkbox-label-green" for="checkbox-green">Subscribe</label>
-               </div>
-               <div>
-                  <input type="checkbox" name="" id="checkbox-red">
-                  <label class="checkbox-label-red" for="checkbox-red">Subscribe</label>
-               </div>
+               <label>
+                  <input type="checkbox" name="checkbox-example">
+                  <span class="custom-checkbox-green"></span>
+                  Subscribe
+               </label>
+               <label>
+                  <input type="checkbox" name="checkbox-example">
+                  <span class="custom-checkbox-red"></span>
+                  Subscribe
+               </label>
             </div>
+         </div>
+         <div class="radio-buttons-boxes">
+            <div class="title">Radio buttons</div>
+            <div class="radio-buttons">
+               <span>Gender:</span>
+               <label>
+                  <input type="radio" name="radio-example">
+                  <span class="custom-radio"></span>
+                  Male
+               </label>
+               <label>
+                  <input type="radio" name="radio-example">
+                  <span class="custom-radio"></span>
+                  Female
+               </label>
+            </div>
+         </div>
+         <div class="buttons-boxes">
+            <div class="title">Buttons</div>
+            <div class="buttons-box">
+               <button class="button">Active</button>
+               <button class="button2">Hover</button>
+               <button class="button3">Danger</button>
+               <button class="button4">Hover</button>
+               <button class="button5">Disabled</button>
+               <button class="button6">+</button>
+               <button class="button7">-</button>
+            </div>
+         </div>
+         <div class="textarea-box">
+            <div class="title">Text area</div>
+            <textarea name="" id="" placeholder="Enter some text..."></textarea>
          </div>
       </div>
    </form>
