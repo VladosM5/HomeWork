@@ -190,6 +190,7 @@ input[type="radio"]:checked + .custom-radio {
 
 .button:focus {
    background-color: #2c7731;
+   transition: 0.2s;
 }
 
 .button2 {
@@ -206,6 +207,7 @@ input[type="radio"]:checked + .custom-radio {
 
 .button2:hover {
    background-color: #41ad49;
+   transition: 0.2s;
 }
 
 .button3 {
@@ -222,6 +224,7 @@ input[type="radio"]:checked + .custom-radio {
 
 .button3:hover {
    background-color: #FF0000;
+   transition: 0.2s;
 }
 
 .button4 {
@@ -238,6 +241,7 @@ input[type="radio"]:checked + .custom-radio {
 
 .button4:hover {
    background-color: #FF0000;
+   transition: 0.2s;
 }
 
 .button5 {
@@ -252,7 +256,9 @@ input[type="radio"]:checked + .custom-radio {
    background-color: #808080;
 }
 
-.button5:disabled {}
+.button5:disabled {
+   background-color: #808080;
+}
 
 .button6 {
    width: 40px;
@@ -268,6 +274,7 @@ input[type="radio"]:checked + .custom-radio {
 
 .button6:hover {
    background-color: #2c7731;
+   transition: 0.2s;
 }
 
 .button7 {
@@ -284,6 +291,7 @@ input[type="radio"]:checked + .custom-radio {
 
 .button7:hover {
    background-color: #FF0000;
+   transition: 0.2s;
 }
 
 .textarea-box {
