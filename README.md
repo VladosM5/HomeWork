@@ -7,3 +7,6 @@
 
 ## html+css
 - [ozon-front-master](html+css/ozon-front-master/) - домашняя работу по ozon
+
+## Python
+- [28-04-2025](Python/28-04-2025/) - домашняя работа по циклам
