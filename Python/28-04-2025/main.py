@@ -1,17 +1,14 @@
 #Задание 1
 
-'''
 a = int(input('num1: '))
 b = int(input('num2: '))
 if a >= b: a,b = b,a
 for i in range(a, b+1):
     if i % 7 == 0:
         print(i)
-'''
 
 #Задание 2
 
-'''
 a = int(input('num1: '))
 b = int(input('num2: '))
 count = 0
@@ -30,11 +27,9 @@ for i in range(a, b+1):
     if i % 5 == 0:
         count+=1
 print(count)
-'''
 
 #Задание 3
 
-'''
 a = int(input('num1: '))
 b = int(input('num2: '))
 if a >= b: a,b = b,a
@@ -47,4 +42,3 @@ for i in range(a, b+1):
         print('Fizz')
     else:
         print(i)
-'''
