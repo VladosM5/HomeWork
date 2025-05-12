@@ -1,5 +1,15 @@
-numbers = [12, -50, 0, 5, -8, 94, 0, 27, -3, 9, 20, 45, 324, 23, 0, -52, -93, 23, 10, 67, -238]
+from random import*
 
+print('Введите размер массива')
+c = int(input())
+print('Введите левую границу рандома')
+left = int(input())
+print('Введите правую границу рандома')
+right = int(input())
+numbers = []
+for i in range(c):
+    numbers.append(randint(left, right))
+print(numbers)
 min = numbers[0]
 max = numbers[0]
 for i in range(0, len(numbers)):
